@@ -1,4 +1,4 @@
-# Báo cáo README và quy trình thay README cho repo chatbot
+# Quy trình repo chatbot
 
 ## Tóm tắt điều hành
 
