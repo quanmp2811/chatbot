@@ -1,0 +1,107 @@
+.user-management {
+  min-width: 0;
+}
+
+.user-management__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.user-management__input {
+  width: 200px;
+  min-width: 0;
+}
+
+.user-management__table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.users-table .ant-table {
+  background: #a1a1a1;
+}
+
+.users-table {
+  width: 100%;
+}
+
+.users-table .ant-table-wrapper,
+.users-table .ant-spin-nested-loading,
+.users-table .ant-spin-container {
+  min-width: 0;
+}
+
+.users-table .ant-table-cell {
+  word-break: break-word;
+}
+
+.users-table .ant-table-thead > tr > th {
+  background: #181818 !important;
+  color: #fff !important;
+  border-bottom-color: #c4c9d1 !important;
+}
+
+.users-table .ant-table-tbody > tr > td {
+  background: #2b2b2b !important;
+  color: #fff !important;
+  border-bottom-color: #d1d5db !important;
+}
+
+.users-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #222222 !important;
+}
+
+.users-table .ant-table-tbody > tr > td a {
+  color: #fff !important;
+}
+
+.users-table .ant-pagination .ant-pagination-item {
+  background: #2b2b2b;
+  border-color: #3a3a3a;
+}
+
+.users-table .ant-pagination .ant-pagination-item a {
+  color: #fff;
+}
+
+.users-table .ant-pagination .ant-pagination-item-active {
+  background: #4b5563;
+  border-color: #4b5563;
+}
+
+.users-table .ant-pagination .ant-pagination-item-active a {
+  color: #fff;
+}
+
+.users-table .ant-pagination .ant-pagination-prev .ant-pagination-item-link,
+.users-table .ant-pagination .ant-pagination-next .ant-pagination-item-link {
+  background: #2b2b2b;
+  border-color: #3a3a3a;
+  color: #fff;
+}
+
+.users-table .ant-table-placeholder .ant-table-cell {
+  background: #2b2b2b !important;
+}
+
+.users-table .ant-empty-description {
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .user-management__toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .user-management__toolbar .ant-space-item,
+  .user-management__toolbar .ant-btn,
+  .user-management__toolbar .ant-input-affix-wrapper,
+  .user-management__toolbar .ant-input,
+  .user-management__input {
+    width: 100%;
+  }
+}

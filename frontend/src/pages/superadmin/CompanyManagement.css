@@ -1,0 +1,288 @@
+.company-management {
+  min-width: 0;
+}
+
+.company-management__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.company-management__input {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.company-management__input--email {
+  flex-basis: 260px;
+}
+
+.company-management__input--position {
+  flex-basis: 220px;
+}
+
+.company-management__table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.company-management__subscription-card {
+  margin-bottom: 20px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(125, 211, 252, 0.24);
+  background: linear-gradient(180deg, rgba(14, 165, 233, 0.18), rgba(15, 23, 42, 0.92));
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.company-management__subscription-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  flex: 1 1 620px;
+}
+
+.company-management__subscription-label {
+  color: #7dd3fc;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.company-management__subscription-value {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  word-break: break-word;
+}
+
+.company-management__danger-zone {
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid #7f1d1d;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(127, 29, 29, 0.2), rgba(17, 24, 39, 0.9));
+}
+
+.company-management__danger-title {
+  margin: 0 0 8px;
+  color: #fecaca;
+}
+
+.company-management__danger-text {
+  margin: 0 0 12px;
+  color: #fee2e2;
+}
+
+.company-management__danger-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.company-management__danger-input {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+
+.company-management__danger-hint {
+  margin: 12px 0 0;
+  color: #fecaca;
+}
+
+.company-table .ant-table {
+  background: #a1a1a1;
+}
+
+.company-table {
+  width: 100%;
+}
+
+.company-table .ant-table-wrapper,
+.company-table .ant-spin-nested-loading,
+.company-table .ant-spin-container {
+  min-width: 0;
+}
+
+.company-table .ant-table-cell {
+  word-break: break-word;
+}
+
+.company-table .ant-table-thead > tr > th {
+  background: #181818 !important;
+  color: #fff !important;
+  border-bottom-color: #c4c9d1 !important;
+}
+
+.company-table .ant-table-tbody > tr > td {
+  background: #2b2b2b !important;
+  color: #fff !important;
+  border-bottom-color: #d1d5db !important;
+}
+
+.company-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #222222 !important;
+}
+
+.company-table .ant-table-tbody > tr > td a {
+  color: #fff !important;
+}
+
+.company-table .ant-pagination .ant-pagination-item {
+  background: #2b2b2b;
+  border-color: #3a3a3a;
+}
+
+.company-table .ant-pagination .ant-pagination-item a {
+  color: #fff;
+}
+
+.company-table .ant-pagination .ant-pagination-item-active {
+  background: #4b5563;
+  border-color: #4b5563;
+}
+
+.company-table .ant-pagination .ant-pagination-item-active a {
+  color: #fff;
+}
+
+.company-table .ant-pagination .ant-pagination-prev .ant-pagination-item-link,
+.company-table .ant-pagination .ant-pagination-next .ant-pagination-item-link {
+  background: #2b2b2b;
+  border-color: #3a3a3a;
+  color: #fff;
+}
+
+.company-table .ant-table-placeholder .ant-table-cell {
+  background: #2b2b2b !important;
+}
+
+.company-table .ant-empty-description {
+  color: #fff !important;
+}
+
+:root[data-theme="light"] .company-management {
+  color: #1f2937;
+}
+
+:root[data-theme="light"] .company-management__subscription-card {
+  border: 1px solid #dde6f6;
+  background: linear-gradient(180deg, #fffdfa 0%, #f3f7ff 100%);
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.06);
+}
+
+:root[data-theme="light"] .company-management__subscription-label {
+  color: #64748b;
+}
+
+:root[data-theme="light"] .company-management__subscription-value {
+  color: #1f2937;
+}
+
+:root[data-theme="light"] .company-management__danger-zone {
+  border: 1px solid #fecaca;
+  background: linear-gradient(180deg, #fff8f8 0%, #fff1f2 100%);
+}
+
+:root[data-theme="light"] .company-management__danger-title {
+  color: #b91c1c;
+}
+
+:root[data-theme="light"] .company-management__danger-text {
+  color: #7f1d1d;
+}
+
+:root[data-theme="light"] .company-management__danger-hint {
+  color: #991b1b;
+}
+
+:root[data-theme="light"] .company-table .ant-table {
+  background: #fffdf9;
+  border: 1px solid #e6dfd2;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+:root[data-theme="light"] .company-table .ant-table-thead > tr > th {
+  background: #f5efe3 !important;
+  color: #1f2937 !important;
+  border-bottom-color: #e6dfd2 !important;
+  font-weight: 700;
+}
+
+:root[data-theme="light"] .company-table .ant-table-tbody > tr > td {
+  background: #fffdf9 !important;
+  color: #1f2937 !important;
+  border-bottom-color: #eee7da !important;
+}
+
+:root[data-theme="light"] .company-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #f8f5ee !important;
+}
+
+:root[data-theme="light"] .company-table .ant-table-tbody > tr > td a {
+  color: #1d4ed8 !important;
+}
+
+:root[data-theme="light"] .company-table .ant-pagination .ant-pagination-item {
+  background: #fffdf9;
+  border-color: #ddd6c9;
+}
+
+:root[data-theme="light"] .company-table .ant-pagination .ant-pagination-item a {
+  color: #374151;
+}
+
+:root[data-theme="light"] .company-table .ant-pagination .ant-pagination-item-active {
+  background: #e8eefb;
+  border-color: #bfd0f6;
+}
+
+:root[data-theme="light"] .company-table .ant-pagination .ant-pagination-item-active a {
+  color: #1d4ed8;
+}
+
+:root[data-theme="light"] .company-table .ant-pagination .ant-pagination-prev .ant-pagination-item-link,
+:root[data-theme="light"] .company-table .ant-pagination .ant-pagination-next .ant-pagination-item-link {
+  background: #fffdf9;
+  border-color: #ddd6c9;
+  color: #374151;
+}
+
+:root[data-theme="light"] .company-table .ant-table-placeholder .ant-table-cell {
+  background: #fffdf9 !important;
+}
+
+:root[data-theme="light"] .company-table .ant-empty-description {
+  color: #6b7280 !important;
+}
+
+@media (max-width: 768px) {
+  .company-management__toolbar {
+    align-items: stretch;
+  }
+
+  .company-management__toolbar .ant-btn,
+  .company-management__toolbar .ant-input-affix-wrapper,
+  .company-management__toolbar .ant-input {
+    width: 100%;
+  }
+
+  .company-management__danger-actions .ant-btn,
+  .company-management__danger-actions .ant-input-affix-wrapper,
+  .company-management__danger-actions .ant-input,
+  .company-management__danger-input,
+  .company-management__subscription-card .ant-btn {
+    width: 100%;
+  }
+}

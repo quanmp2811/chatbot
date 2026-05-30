@@ -1,0 +1,110 @@
+.documents-table .ant-table {
+  background: #a1a1a1;
+}
+
+.documents-table .ant-table-thead > tr > th {
+  background: #181818 !important;
+  color: #fff !important;
+  border-bottom-color: #c4c9d1 !important;
+}
+
+.documents-table .ant-table-tbody > tr > td {
+  background: #2b2b2b !important;
+  color: #fff !important;
+  border-bottom-color: #d1d5db !important;
+}
+
+.documents-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #222222 !important;
+}
+
+.documents-table .ant-table-tbody > tr > td a {
+  color: #fff !important;
+}
+
+.documents-table .ant-pagination .ant-pagination-item {
+  background: #2b2b2b;
+  border-color: #3a3a3a;
+}
+
+.documents-table .ant-pagination .ant-pagination-item a {
+  color: #fff;
+}
+
+.documents-table .ant-pagination .ant-pagination-item-active {
+  background: #4b5563;
+  border-color: #4b5563;
+}
+
+.documents-table .ant-pagination .ant-pagination-item-active a {
+  color: #fff;
+}
+
+.documents-table .ant-pagination .ant-pagination-prev .ant-pagination-item-link,
+.documents-table .ant-pagination .ant-pagination-next .ant-pagination-item-link {
+  background: #2b2b2b;
+  border-color: #3a3a3a;
+  color: #fff;
+}
+
+:root[data-theme="light"] .documents-table .ant-table {
+  background: #fffdf9;
+  border: 1px solid #e6dfd2;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+:root[data-theme="light"] .documents-table .ant-table-thead > tr > th {
+  background: #f5efe3 !important;
+  color: #1f2937 !important;
+  border-bottom-color: #e6dfd2 !important;
+  font-weight: 700;
+}
+
+:root[data-theme="light"] .documents-table .ant-table-tbody > tr > td {
+  background: #fffdf9 !important;
+  color: #1f2937 !important;
+  border-bottom-color: #eee7da !important;
+}
+
+:root[data-theme="light"] .documents-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #f8f5ee !important;
+}
+
+:root[data-theme="light"] .documents-table .ant-table-tbody > tr > td a {
+  color: #1d4ed8 !important;
+  font-weight: 600;
+}
+
+:root[data-theme="light"] .documents-table .ant-pagination .ant-pagination-item {
+  background: #fffdf9;
+  border-color: #ddd6c9;
+}
+
+:root[data-theme="light"] .documents-table .ant-pagination .ant-pagination-item a {
+  color: #374151;
+}
+
+:root[data-theme="light"] .documents-table .ant-pagination .ant-pagination-item-active {
+  background: #e8eefb;
+  border-color: #bfd0f6;
+}
+
+:root[data-theme="light"] .documents-table .ant-pagination .ant-pagination-item-active a {
+  color: #1d4ed8;
+}
+
+:root[data-theme="light"] .documents-table .ant-pagination .ant-pagination-prev .ant-pagination-item-link,
+:root[data-theme="light"] .documents-table .ant-pagination .ant-pagination-next .ant-pagination-item-link {
+  background: #fffdf9;
+  border-color: #ddd6c9;
+  color: #374151;
+}
+
+:root[data-theme="light"] .documents-table .ant-table-placeholder .ant-table-cell {
+  background: #fffdf9 !important;
+}
+
+:root[data-theme="light"] .documents-table .ant-empty-description {
+  color: #6b7280 !important;
+}

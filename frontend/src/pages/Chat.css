@@ -1,0 +1,241 @@
+.chat-message-content {
+  line-height: 1.7;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  word-break: break-word;
+  color: #f8fafc;
+}
+
+:root .chat-message-content--user,
+:root .chat-message-content--user p,
+:root .chat-message-content--user li,
+:root .chat-message-content--user h1,
+:root .chat-message-content--user h2,
+:root .chat-message-content--user h3,
+:root .chat-message-content--user strong,
+:root .chat-message-content--user code {
+  color: #ffffff;
+}
+
+:root .chat-message-content--user a,
+:root[data-theme="light"] .chat-message-content--user a {
+  color: #ffffff;
+}
+
+:root[data-theme="light"] .chat-message-content {
+  color: #1f2937;
+}
+
+/* paragraph */
+
+.chat-message-content p {
+  margin-bottom: 12px;
+}
+
+/* heading */
+
+.chat-message-content h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+
+.chat-message-content h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 18px 0 8px;
+}
+
+.chat-message-content h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 16px 0 6px;
+}
+
+/* list */
+
+.chat-message-content ul,
+.chat-message-content ol {
+  padding-left: 22px;
+  margin-bottom: 12px;
+}
+
+.chat-message-content li {
+  margin-bottom: 6px;
+}
+
+/* nested list */
+
+.chat-message-content ol ol,
+.chat-message-content ol ul,
+.chat-message-content ul ol,
+.chat-message-content ul ul {
+  margin-top: 6px;
+}
+
+/* strong */
+
+.chat-message-content strong {
+  font-weight: 700;
+}
+
+/* link */
+
+.chat-message-content a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+:root[data-theme="light"] .chat-message-content a {
+  color: #2563eb;
+}
+
+.chat-message-content a:hover {
+  text-decoration: underline;
+}
+
+/* inline code */
+
+.chat-message-content code {
+  padding: 2px 5px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.08);
+  font-size: 0.95em;
+}
+
+:root[data-theme="light"] .chat-message-content code {
+  background: #eef2ff;
+  color: #1e3a8a;
+}
+
+/* code block */
+
+.chat-message-content pre {
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 10px;
+  background: #0d1117;
+  overflow-x: auto;
+}
+
+:root[data-theme="light"] .chat-message-content pre {
+  background: #f8fafc;
+  border: 1px solid #dbe3f0;
+}
+
+.chat-message-content pre code {
+  padding: 0;
+  background: transparent;
+}
+
+/* highlight.js */
+
+.hljs {
+  background: transparent;
+}
+
+/* table */
+
+.chat-message-table-wrap {
+  overflow-x: auto;
+  margin: 12px 0;
+}
+
+.chat-message-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.chat-message-table th,
+.chat-message-table td {
+  padding: 8px 10px;
+  border: 1px solid rgba(255,255,255,0.16);
+  text-align: left;
+}
+
+:root[data-theme="light"] .chat-message-table th,
+:root[data-theme="light"] .chat-message-table td {
+  border: 1px solid #d7dee9;
+}
+
+.chat-message-table th {
+  background: rgba(255,255,255,0.08);
+}
+
+:root[data-theme="light"] .chat-message-table th {
+  background: #f8fafc;
+}
+
+/* source */
+
+.chat-message-source {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+
+:root[data-theme="light"] .chat-message-source {
+  border-top: 1px solid #e5e7eb;
+}
+
+.chat-message-source-link,
+.chat-message-source-text {
+  font-size: 13px;
+  color: #93c5fd;
+}
+
+:root[data-theme="light"] .chat-message-source-link,
+:root[data-theme="light"] .chat-message-source-text {
+  color: #2563eb;
+}
+
+.chat-message-source-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.chat-message-source-link:hover {
+  text-decoration: underline;
+}
+
+.citation {
+  background: rgba(255, 255, 0, 0.15);
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+:root[data-theme="light"] .citation {
+  background: #fef3c7;
+}
+
+/* input */
+
+.chat-input,
+.chat-input textarea,
+.chat-input .ant-input {
+  color: #fff;
+  caret-color: #fff;
+  background: transparent;
+  -webkit-text-fill-color: #fff;
+}
+
+:root[data-theme="light"] .chat-input,
+:root[data-theme="light"] .chat-input textarea,
+:root[data-theme="light"] .chat-input .ant-input {
+  color: #1f2937;
+  caret-color: #1f2937;
+  -webkit-text-fill-color: #1f2937;
+}
+
+.chat-input textarea::placeholder,
+.chat-input .ant-input::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+
+:root[data-theme="light"] .chat-input textarea::placeholder,
+:root[data-theme="light"] .chat-input .ant-input::placeholder {
+  color: #94a3b8;
+}

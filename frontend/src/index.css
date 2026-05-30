@@ -1,0 +1,50 @@
+:root {
+  --app-bg: #242424;
+  --surface-bg: #202020;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --app-bg: linear-gradient(180deg, #f7f3eb 0%, #f4efe6 100%);
+  --surface-bg: rgba(255, 252, 247, 0.96);
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--app-bg);
+  forced-color-adjust: none;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: auto;
+  overscroll-behavior-y: auto;
+}
+
+#root {
+  min-height: 100dvh;
+  overflow: visible;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  input,
+  textarea,
+  select,
+  .ant-input,
+  .ant-input-affix-wrapper input,
+  .ant-input-textarea textarea,
+  .ant-select-selection-search-input {
+    font-size: 16px !important;
+  }
+}

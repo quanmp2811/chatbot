@@ -1,0 +1,10 @@
+backend/.env
+backend/app/core/google_oauth.json
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+node_modules/
+*.log
+*.tmp
+~$*

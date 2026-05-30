@@ -1,0 +1,144 @@
+.cgpt-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #0f0f10;
+  color: #ececec;
+  position: relative;
+}
+
+.cgpt-toggle {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 50;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  background: #171717;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+}
+
+.cgpt-toggle:hover {
+  transform: translateY(-1px);
+  background: #202020;
+  border-color: #3a3a3a;
+}
+
+.cgpt-toggle span {
+  width: 16px;
+  height: 2px;
+  border-radius: 2px;
+  background: #f1f1f1;
+}
+
+.cgpt-sidebar {
+  width: 260px;
+  background: #171717;
+  border-right: 1px solid #242424;
+  transition: width 0.25s ease, transform 0.25s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cgpt-sidebar.desktop.closed {
+  width: 0;
+  border-right: 0;
+}
+
+.cgpt-sidebar.mobile {
+  position: fixed;
+  inset: 0 auto 0 0;
+  height: 100vh;
+  z-index: 45;
+  transform: translateX(-100%);
+  box-shadow: 8px 0 26px rgba(0, 0, 0, 0.45);
+}
+
+.cgpt-sidebar.mobile.open {
+  transform: translateX(0);
+}
+
+.cgpt-sidebar-header {
+  padding: 62px 12px 12px;
+}
+
+.cgpt-new-chat {
+  width: 100%;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid #2e2e2e;
+  background: #212121;
+  color: #efefef;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.cgpt-new-chat:hover {
+  background: #2a2a2a;
+  transform: translateY(-1px);
+}
+
+.cgpt-chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.cgpt-chat-item {
+  width: 100%;
+  min-height: 42px;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: transparent;
+  color: #d9d9d9;
+  cursor: pointer;
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.cgpt-chat-item:hover {
+  background: #222;
+}
+
+.cgpt-chat-item.active {
+  background: #232323;
+  border-color: #343434;
+}
+
+.cgpt-main {
+  flex: 1;
+  background: #0f0f10;
+  transition: margin-left 0.25s ease;
+  min-width: 0;
+}
+
+.cgpt-main.with-sidebar {
+  margin-left: 0;
+}
+
+.cgpt-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 40;
+}
+
+@media (max-width: 767px) {
+  .cgpt-toggle {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+  }
+}
+
